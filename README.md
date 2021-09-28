@@ -7,7 +7,7 @@ mpiexec -n <NRO_PROCESOS> main
 
 #ODDEVENSORT:
 mpicc -g -o main oddevens.c
-mpirin -np 2 --oversubcribe main
+mpirin -np <NRO_PROCESOS> --oversubcribe main
 
 
 
